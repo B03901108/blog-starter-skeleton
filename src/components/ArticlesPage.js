@@ -10,6 +10,7 @@ class ArticlesPage extends Component {
 
   componentDidMount() {
     // fetch here
+    fetch('/api/articles').then(res => res.json()).then(/* TODO */);
   }
 
   render() {

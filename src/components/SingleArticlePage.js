@@ -1,5 +1,7 @@
 import 'isomorphic-fetch';
 import React, { Component, PropTypes } from 'react';
+import ReactQuill from 'react-quill';
+import TagsInput from 'react-tagsinput';
 
 class SingleArticlePage extends Component {
   static propTypes = {
@@ -17,6 +19,7 @@ class SingleArticlePage extends Component {
 
   componentDidMount() {
     // fetch with id
+    const id = this.props.id;
   }
 
   componentDidUpdate() {
